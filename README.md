@@ -47,12 +47,12 @@ Prompts enforce real component states, native semantic controls, keyboard/focus 
 
 Every one of the **20,000 prompts** expands lazily when copied, opened, or downloaded. The archive keeps browsing light by storing prompt metadata first, then builds the complete long-form prompt on demand. Each complete prompt contains:
 
-- A distilled and attributed **230-source synthesis**: all previously supplied repositories, the earlier 20-repository catalog, 100 production-system repositories, and 100 additional design/typography/motion/web sources
+- A distilled and attributed **231-source synthesis**: all previously supplied repositories, Odysseus AI Workspace, the earlier 20-repository catalog, 100 production-system repositories, and 100 additional design/typography/motion/web sources
 - Repository-specific `SOURCE`, `APPLY`, `GUARD`, `VERIFY`, `DOMAIN`, `INTEGRATE`, and design-source directives
 - Ten quality matrices with explicit checks for intent, tokens, anatomy, accessibility, input/password safety, motion, loading, performance, test/review, and output
 - The selected component brief or production-system opportunity, architecture profile, capability pack, style system, motion profile, UIverse craft cue, and model-neutral delivery contract
 
-The complete prompts are deliberately detailed: component prompts are typically **1,180+ lines** and production-system prompts are typically **1,130+ lines** in the current archive. They do not copy repository code or documentation verbatim. This keeps them license-conscious, practical for current coding-agent context windows, and fast to browse.
+The complete prompts are deliberately detailed: component prompts are currently **1,203 lines** and production-system prompts are currently **1,147 lines**. They do not copy repository code or documentation verbatim. This keeps them license-conscious, practical for current coding-agent context windows, and fast to browse.
 
 ## Twenty newly researched repositories
 
@@ -80,6 +80,14 @@ The following new repositories were researched and turned into explicit prompt r
 | 18 | [Tailwind CSS](https://github.com/tailwindlabs/tailwindcss) | Deliberate tokens/utilities/responsive variants rather than one-off values. |
 | 19 | [Class Variance Authority](https://github.com/joe-bell/cva) | Finite explicit component variant contracts. |
 | 20 | [Vaul](https://github.com/emilkowalski/vaul) | Touch-friendly drawers/sheets and predictable gesture fallback. |
+
+## Odysseus AI workspace integration
+
+[Odysseus](https://github.com/odysseus-dev/odysseus) was reviewed as a self-hosted AI workspace pattern. The prompt master now includes a conditional agentic-AI foundation: multi-provider capability adapters, server-enforced scoped tools/tokens, untrusted-context and prompt-injection boundaries, owner-scoped consented memory, cited research, transparent model comparison, durable background tasks, human confirmation for effectful actions, Docker/network hardening, audited logs, backups, and recovery. These requirements apply only when the target application genuinely includes an AI/agentic workflow; ordinary systems are not forced to add an AI agent.
+
+## Verified large-catalog source policy
+
+A blanket import of 10,000 arbitrary GitHub `SKILL.md`/`DESIGN.md` files would be unsafe and unreviewable: source files can contain conflicting instructions, unknown licenses, malicious setup commands, stale dependencies, or prompt-injection content. The prompts now include a verified-source intake gate that requires source provenance, license, activity, scope, dependency/security/accessibility impact, and an original-principles-only transformation before a new source can influence a production build. This keeps the 231 curated sources auditable while allowing future verified batches to be added safely.
 
 ## One hundred additional design, typography, motion, and web sources
 
