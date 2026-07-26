@@ -43,6 +43,17 @@ The shared protocol incorporates the reviewed skill repositories:
 
 Prompts enforce real component states, native semantic controls, keyboard/focus paths, 44px targets, error/loading/success states, form and password safety, security constraints, reduced-motion fallbacks, transform/opacity motion, official-GSAP-only-when-needed discipline, distinctive subject-grounded art direction, design-system component composition, original UIverse-inspired micro-craft, and a final verification/review pass. Each asks for a polished primary component plus purposeful default/expressive states without copying any individual UIverse submission. They are explicitly **model-neutral**: Claude Code, ChatGPT/Codex, Gemini, Cursor, Copilot, Windsurf, Aider, OpenCode, and similar AI coding agents receive the same embedded requirements even when none of the external skill plugins are installed.
 
+## Long-form prompt architecture
+
+Every one of the 10,000 component prompts now expands lazily when copied, opened, or downloaded. The archive keeps browsing light by storing component metadata first, then builds the complete prompt on demand. Each complete prompt contains:
+
+- A distilled and attributed **30-source repository synthesis**: all previously supplied sources plus the 20-repository research catalog
+- Repository-specific `SOURCE`, `APPLY`, `GUARD`, and `VERIFY` directives
+- Ten quality matrices with explicit checks for intent, tokens, anatomy, accessibility, input/password safety, motion, loading, performance, test/review, and output
+- The selected component brief, style system, motion profile, UIverse craft cue, and model-neutral delivery contract
+
+The complete prompts are deliberately detailed (typically **300–600 lines** each), but they do not copy repository code or documentation verbatim. This keeps the output license-conscious, practical for current coding-agent context windows, and fast to browse.
+
 ## Twenty newly researched repositories
 
 The following new repositories were researched and turned into explicit prompt rules. They are **not** all installed together; every prompt tells an AI to select compatible primitives/dependencies for a real target stack and to provide dependency-free semantic fallbacks for its requested single-file lab.
