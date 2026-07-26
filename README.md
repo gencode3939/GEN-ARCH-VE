@@ -1,26 +1,14 @@
-# P/GEN Photo Archive
+# P/GEN Code Library
 
-A self-contained visual prompt library with **10,000 English prompts** for premium UI/UX direction, interactive controls, atmospheric backgrounds, product campaigns, editorial work, architecture, fashion, food, travel, and abstract 3D.
+A standalone prompt library of **30 ultra-detailed English code-generation blueprints**. Each prompt tells a coding AI to return a complete, responsive, interactive, browser-ready `index.html` file.
 
-## Open it
+## Use it
 
-Open [`index.html`](./index.html) in any modern browser. There is no build step, server, dependency, external asset, or API required—the archive, interface, previews, filters, and Test Lab are all inside that single HTML file.
+1. Open [`index.html`](./index.html) in any modern browser.
+2. Search or filter a blueprint, then choose **Copy prompt**.
+3. Paste the copied English prompt into your preferred coding AI.
+4. Save the full response as `index.html` and open it in a browser.
 
-### Included interactions
+Every prompt explicitly requires: a single-file vanilla HTML/CSS/JavaScript result, working interactions, responsive behaviour, accessibility, original visual assets made with CSS/SVG, and no dependencies or explanatory text.
 
-- Search, sort, category filters, and creative-intent filters across all 10,000 prompts
-- A prompt-specific visual preview on every archive card, with a larger matching preview in the detail modal
-- Responsive prompt cards with quick copy and local favourites
-- Full prompt preview modal and clipboard copying
-- A live **Test Lab** for trying a prompt as an interactive visual UI direction
-- Grid/list views, keyboard search (`Cmd/Ctrl + K`), and an offline-friendly design
-
-## Generate real AI image previews
-
-The archive also includes a **Pollinations AI Preview Studio**. It lets the browser convert any prompt—or the complete 10,000-prompt archive—into actual AI-generated 4:5 images.
-
-1. Open `index.html`, then choose **AI Previews** in the header.
-2. Create a **publishable** `pk_…` key at [Pollinations](https://enter.pollinations.ai/keys) and enter it in the studio. Never use or paste an `sk_…` secret key.
-3. Generate the selected prompt, the currently visible prompt cards, or explicitly confirm **Generate all 10,000 AI previews**.
-
-Generated images are stored as blobs in the browser's IndexedDB cache and replace the direction preview on the relevant cards. The key is held only in the current browser tab and is never written to the HTML, local storage, Git, or GitHub. A full archive run uses 10,000 provider requests and can consume substantial provider credits, time, and local browser storage; the queue can be paused and resumed.
+The library is self-contained: no build process, external API, AI key, remote image, or package is needed.
