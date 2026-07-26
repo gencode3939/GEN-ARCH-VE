@@ -47,7 +47,7 @@ Prompts enforce real component states, native semantic controls, keyboard/focus 
 
 Every one of the **20,000 prompts** expands lazily when copied, opened, or downloaded. The archive keeps browsing light by storing prompt metadata first, then builds the complete long-form prompt on demand. Each complete prompt contains:
 
-- A distilled and attributed **234-source synthesis**: all previously supplied repositories, Odysseus AI Workspace, Agency Agents, Karpathy-Inspired Skills, an AI Tool Prompt Safety reference, the earlier 20-repository catalog, 100 production-system repositories, and 100 additional design/typography/motion/web sources
+- A distilled and attributed **237-source synthesis**: all previously supplied repositories, Odysseus AI Workspace, Agency Agents, Karpathy-Inspired Skills, Superpowers, Awesome Claude Code, Claude-Mem, an AI Tool Prompt Safety reference, the earlier 20-repository catalog, 100 production-system repositories, and 100 additional design/typography/motion/web sources
 - Repository-specific `SOURCE`, `APPLY`, `GUARD`, `VERIFY`, `DOMAIN`, `INTEGRATE`, and design-source directives
 - Ten quality matrices with explicit checks for intent, tokens, anatomy, accessibility, input/password safety, motion, loading, performance, test/review, and output
 - The selected component brief or production-system opportunity, architecture profile, capability pack, style system, motion profile, UIverse craft cue, and model-neutral delivery contract
@@ -80,6 +80,16 @@ The following new repositories were researched and turned into explicit prompt r
 | 18 | [Tailwind CSS](https://github.com/tailwindlabs/tailwindcss) | Deliberate tokens/utilities/responsive variants rather than one-off values. |
 | 19 | [Class Variance Authority](https://github.com/joe-bell/cva) | Finite explicit component variant contracts. |
 | 20 | [Vaul](https://github.com/emilkowalski/vaul) | Touch-friendly drawers/sheets and predictable gesture fallback. |
+
+## Superpowers, Awesome Claude Code, and Claude-Mem integration
+
+[Superpowers](https://github.com/obra/superpowers) is distilled into a goal-driven delivery method: clarify intent, brainstorm/design, write measurable acceptance criteria and a plan, implement in verified slices, use red-green-refactor where appropriate, debug from root cause, request/review evidence, and verify before completion. The prompts do not force subagents, worktrees, or ceremony where a focused task does not need them.
+
+[Awesome Claude Code](https://github.com/hesreallyhim/awesome-claude-code) is used as a curated discovery model. Every prompt now requires a provenance/license/maintenance/security/privacy/project-fit check before adding a skill, plugin, hook, agent, command, template, MCP server, or automation. It mandates minimum toolchains, least privilege, ownership, removability, and no-tool fallbacks.
+
+[Claude-Mem](https://github.com/thedotmack/claude-mem) contributes persistent-context discipline: consented owner-scoped observations, redaction, provenance, timestamps, uncertainty, citations, privacy exclusion, edit/delete/export, project isolation, token budgets, and progressive retrieval from compact index → timeline → selected detail. Memory and retrieved context remain untrusted and never override trusted policy.
+
+These are workflow and context-quality rules, not a claim that any AI model can be made identical to another model. The archive remains model-neutral and capability-aware.
 
 ## AI system-prompt safety boundary
 
