@@ -1,29 +1,40 @@
-# P/GEN Skill Code Archive
+# P/GEN Component Motion Archive
 
-A single-file library of **10,000 unique ultra-detailed English code-generation prompts**. The archive creates 100 product briefs × 10 art-direction systems × 10 motion/interaction architectures in the browser; every generated record has its own ID and complete copy-ready build prompt.
+A standalone **10,000-prompt component engineering library**. It is built for copy-ready prompts that ask a coding AI for a real interactive component lab, not a static UI snippet.
+
+## Component coverage
+
+The 100 component briefs cover:
+
+- Buttons, CTA controls, undo actions, command triggers, destructive confirmations, and action menus
+- Password strength/reveal, email, OTP, search, file upload, phone, range, date, address, and validation inputs
+- Sign-in, sign-up, passkeys, multi-factor verification, recovery, security settings, and consent dialogs
+- Loading buttons, skeletons, progress, async form states, toasts, alerts, empty/offline/error/retry/success feedback
+- Navigation, tabs, command palettes, accordions, modals, drawers, steppers, sidebars, and help popovers
+- Filters, sorting, date ranges, tables, charts, selection, saved views, pagination, and bulk actions
+- Cart, variants, quantity, checkout, discount, subscriptions, wishlist, reviews, and delivery tracking
+- Tasks, Kanban, autosave, calendar, collaboration, AI streaming, mentions, comments, and notifications
+- Theme, motion, contrast, text size, language, cookie/privacy/notification preferences, shortcuts, and onboarding
+- SVG success, validation error, transitions, reordering, custom cursor, 3D fallbacks, progress narratives, drag confirmation, and ambient controls
 
 ## Use it
 
 1. Open [`index.html`](./index.html) in a modern browser.
-2. Search, filter, sort, preview, copy, or download a prompt. Only 24 cards render at a time for responsive browsing.
-3. Paste the copied prompt into Claude Code or another coding AI. Each prompt requires a complete runnable, single-file `index.html` response.
+2. Search/filter the 10 component families. The UI renders 24 cards at a time for quick browsing.
+3. Copy or download any complete English component prompt.
+4. Paste it into Claude Code or another coding AI. Every prompt requires one runnable `index.html` component lab.
 
-## Skill-informed protocol
+## Skill protocol in every prompt
 
-The embedded implementation prompts were distilled after reviewing the supplied repositories:
+Every generated prompt combines one of 100 component briefs with ten visual design systems and ten motion systems: **100 × 10 × 10 = 10,000 unique prompts**.
 
-- [UI/UX Pro Max](https://github.com/nextlevelbuilder/ui-ux-pro-max-skill): product/design-system reasoning, accessibility, touch targets, responsive UI, form feedback, charts, performance and meaningful motion.
-- [Claude Design Skillstack](https://github.com/freshtechbro/claudedesignskills): modern web design, GSAP ScrollTrigger, Three.js/WebGL, lightweight 3D, motion, Canvas, and progressive-enhancement patterns.
-- [LottieFiles Motion Design Skill](https://github.com/LottieFiles/motion-design-skill): implementation-agnostic motion direction—emotional intent, motion personality, timing/easing, setup→action→resolution, primary/secondary/ambient layers, choreography, attention budgets, and accessibility-aware fallback.
-- [Addy Osmani Agent Skills](https://github.com/addyosmani/agent-skills): production workflows for frontend UI engineering, spec-driven work, tests, browser verification, performance, security, code review, and shipping-quality definition-of-done gates.
+The shared protocol incorporates the reviewed skill repositories:
 
-Each prompt asks Claude Code to invoke the relevant installed skills when present, and embeds fallback requirements so it works without plugin installation. It includes a LottieFiles motion-director brief that declares an emotional target and single motion personality, sets timing/easing tokens, requires setup→action→resolution choreography, distinguishes primary/secondary/ambient motion, caps simultaneous motion and stagger duration, and specifies accessible reduced-motion behaviour. It also now embeds an Addy Osmani Agent Skills delivery pass: silent specification and vertical-slice planning, acceptance criteria, production UI anti-pattern avoidance, semantic controls, focus management, input/security boundaries, verification scenarios, runtime/browser checks, performance honesty, and a five-axis final review. The prompts retain WCAG-oriented contrast/focus rules, 44px touch targets, keyboard paths, transform/opacity animation, performance budgets, real stateful interactions, and Canvas/WebGL/GSAP fallbacks when applicable.
+- [UI/UX Pro Max](https://github.com/nextlevelbuilder/ui-ux-pro-max-skill): design-system reasoning, responsive UX, accessibility, interaction, data, and performance rules.
+- [Claude Design Skillstack](https://github.com/freshtechbro/claudedesignskills): modern web design, GSAP, Three.js, lightweight 3D, Canvas, and interaction implementation patterns.
+- [LottieFiles Motion Design Skill](https://github.com/LottieFiles/motion-design-skill): emotional intent, motion personalities, setup→action→resolution, timing/easing, primary/secondary/ambient layers, choreography, and motion accessibility.
+- [Addy Osmani Agent Skills](https://github.com/addyosmani/agent-skills): frontend UI engineering, silent spec/vertical-slice thinking, security boundaries, tests, browser verification, performance, code review, and production definition-of-done gates.
 
-## Composition
+Prompts enforce real component states, native semantic controls, keyboard/focus paths, 44px targets, error/loading/success states, form and password safety, security constraints, reduced-motion fallbacks, transform/opacity motion, and a final verification/review pass.
 
-- 10 product families × 10 concrete product names = 100 product briefs
-- 10 design systems
-- 10 animation/interaction systems
-- **100 × 10 × 10 = 10,000 unique full prompts**
-
-No API key, build step, external image, package, or remote AI request is required to browse or copy this standalone archive.
+No API key, build process, external image, or remote AI call is needed to browse this single HTML archive.
