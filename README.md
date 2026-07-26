@@ -47,7 +47,7 @@ Prompts enforce real component states, native semantic controls, keyboard/focus 
 
 Every one of the **20,000 prompts** expands lazily when copied, opened, or downloaded. The archive keeps browsing light by storing prompt metadata first, then builds the complete long-form prompt on demand. Each complete prompt contains:
 
-- A distilled and attributed **237-source synthesis**: all previously supplied repositories, Odysseus AI Workspace, Agency Agents, Karpathy-Inspired Skills, Superpowers, Awesome Claude Code, Claude-Mem, an AI Tool Prompt Safety reference, the earlier 20-repository catalog, 100 production-system repositories, and 100 additional design/typography/motion/web sources
+- A distilled and attributed **239-source synthesis**: all previously supplied repositories, Odysseus AI Workspace, Agency Agents, Karpathy-Inspired Skills, Superpowers, Awesome Claude Code, Claude-Mem, RuFlo, Claw Code, an AI Tool Prompt Safety reference, the earlier 20-repository catalog, 100 production-system repositories, and 100 additional design/typography/motion/web sources
 - Repository-specific `SOURCE`, `APPLY`, `GUARD`, `VERIFY`, `DOMAIN`, `INTEGRATE`, and design-source directives
 - Ten quality matrices with explicit checks for intent, tokens, anatomy, accessibility, input/password safety, motion, loading, performance, test/review, and output
 - The selected component brief or production-system opportunity, architecture profile, capability pack, style system, motion profile, UIverse craft cue, and model-neutral delivery contract
@@ -80,6 +80,14 @@ The following new repositories were researched and turned into explicit prompt r
 | 18 | [Tailwind CSS](https://github.com/tailwindlabs/tailwindcss) | Deliberate tokens/utilities/responsive variants rather than one-off values. |
 | 19 | [Class Variance Authority](https://github.com/joe-bell/cva) | Finite explicit component variant contracts. |
 | 20 | [Vaul](https://github.com/emilkowalski/vaul) | Touch-friendly drawers/sheets and predictable gesture fallback. |
+
+## RuFlo and Claw Code harness integration
+
+[RuFlo](https://github.com/ruvnet/ruflo) is distilled into a **conditional orchestration** method: explicit goals, preconditions/effects, dependency-aware parallelism, bounded workers, role routing, scoped memory, checkpoints, evidence, token/cost budgets, cancellation, adaptive replanning, circuit breakers, zero-trust federation, and human approval for effectful work. The prompts explicitly reject unnecessary swarms, autonomous loops, unbounded shared memory, and broad MCP access.
+
+[Claw Code](https://github.com/ultraworkers/claw-code) contributes a **reliability harness** method: doctor-style preflight diagnostics, explicit provider/model routing, typed tool contracts, safe permission modes, workspace boundaries, session discipline, local-provider compatibility, reproducible parity harnesses, machine-readable status, build/test health checks, and honest unsupported-capability reporting.
+
+These workflow improvements make prompts more capable and predictable across compatible AI coding tools, but they do not claim to turn one model into another or guarantee a specific model’s hidden capabilities.
 
 ## Superpowers, Awesome Claude Code, and Claude-Mem integration
 
