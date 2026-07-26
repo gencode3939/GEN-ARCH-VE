@@ -14,8 +14,9 @@ The embedded implementation prompts were distilled after reviewing the supplied 
 
 - [UI/UX Pro Max](https://github.com/nextlevelbuilder/ui-ux-pro-max-skill): product/design-system reasoning, accessibility, touch targets, responsive UI, form feedback, charts, performance and meaningful motion.
 - [Claude Design Skillstack](https://github.com/freshtechbro/claudedesignskills): modern web design, GSAP ScrollTrigger, Three.js/WebGL, lightweight 3D, motion, Canvas, and progressive-enhancement patterns.
+- [LottieFiles Motion Design Skill](https://github.com/LottieFiles/motion-design-skill): implementation-agnostic motion direction—emotional intent, motion personality, timing/easing, setup→action→resolution, primary/secondary/ambient layers, choreography, attention budgets, and accessibility-aware fallback.
 
-Each prompt asks Claude Code to invoke the relevant installed skills when present, and embeds fallback requirements so it works without plugin installation. It includes WCAG-oriented contrast/focus rules, 44px touch targets, keyboard paths, reduced-motion behavior, transform/opacity animation, performance budgets, real stateful interactions, and Canvas/WebGL/GSAP fallbacks when applicable.
+Each prompt asks Claude Code to invoke the relevant installed skills when present, and embeds fallback requirements so it works without plugin installation. It now includes a LottieFiles motion-director brief that declares an emotional target and single motion personality, sets timing/easing tokens, requires setup→action→resolution choreography, distinguishes primary/secondary/ambient motion, caps simultaneous motion and stagger duration, and specifies accessible reduced-motion behaviour. It also includes WCAG-oriented contrast/focus rules, 44px touch targets, keyboard paths, transform/opacity animation, performance budgets, real stateful interactions, and Canvas/WebGL/GSAP fallbacks when applicable.
 
 ## Composition
 
