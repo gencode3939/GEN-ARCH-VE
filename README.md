@@ -47,12 +47,12 @@ Prompts enforce real component states, native semantic controls, keyboard/focus 
 
 Every one of the **20,000 prompts** expands lazily when copied, opened, or downloaded. The archive keeps browsing light by storing prompt metadata first, then builds the complete long-form prompt on demand. Each complete prompt contains:
 
-- A distilled and attributed **231-source synthesis**: all previously supplied repositories, Odysseus AI Workspace, the earlier 20-repository catalog, 100 production-system repositories, and 100 additional design/typography/motion/web sources
+- A distilled and attributed **233-source synthesis**: all previously supplied repositories, Odysseus AI Workspace, Agency Agents, Karpathy-Inspired Skills, the earlier 20-repository catalog, 100 production-system repositories, and 100 additional design/typography/motion/web sources
 - Repository-specific `SOURCE`, `APPLY`, `GUARD`, `VERIFY`, `DOMAIN`, `INTEGRATE`, and design-source directives
 - Ten quality matrices with explicit checks for intent, tokens, anatomy, accessibility, input/password safety, motion, loading, performance, test/review, and output
 - The selected component brief or production-system opportunity, architecture profile, capability pack, style system, motion profile, UIverse craft cue, and model-neutral delivery contract
 
-The complete prompts are deliberately detailed: component prompts are currently **1,203 lines** and production-system prompts are currently **1,147 lines**. They do not copy repository code or documentation verbatim. This keeps them license-conscious, practical for current coding-agent context windows, and fast to browse.
+The complete prompts are deliberately detailed: component prompts are currently **1,229 lines** and production-system prompts are currently **1,172 lines**. They do not copy repository code or documentation verbatim. This keeps them license-conscious, practical for current coding-agent context windows, and fast to browse.
 
 ## Twenty newly researched repositories
 
@@ -80,6 +80,16 @@ The following new repositories were researched and turned into explicit prompt r
 | 18 | [Tailwind CSS](https://github.com/tailwindlabs/tailwindcss) | Deliberate tokens/utilities/responsive variants rather than one-off values. |
 | 19 | [Class Variance Authority](https://github.com/joe-bell/cva) | Finite explicit component variant contracts. |
 | 20 | [Vaul](https://github.com/emilkowalski/vaul) | Touch-friendly drawers/sheets and predictable gesture fallback. |
+
+## Agency Agents and Karpathy execution integration
+
+[Agency Agents](https://github.com/msitarzewski/agency-agents) was distilled into a lean specialist-lens workflow: UX research, UX architecture, UI design, brand guardianship, inclusive visuals, visual storytelling, frontend delivery, and UI finish-gate review. Production prompts conditionally add identity/access, privacy, security, payments, realtime, SRE, product, and code-review gates only where scope makes them necessary. The system explicitly rejects persona role-play, copied agent prompts, and autonomous multi-agent ceremony without a concrete user benefit.
+
+[Karpathy-Inspired Skills](https://github.com/multica-ai/andrej-karpathy-skills) contributes four execution rules: surface assumptions/tradeoffs, simplicity before abstraction, surgical scope, and goal-driven verification loops. All prompts now require internal success criteria, minimal safe implementation, evidence-backed tests/checks, and a final simplification pass.
+
+### Rounded visual system
+
+Every prompt now requires a controlled rounded geometry scale: 8–10px compact controls, 10–12px inputs/buttons, 14–16px cards, 18–20px drawers/modals, and pill forms only for compact semantic controls. Nested surfaces reduce radius. Motion, shadows, focus, press, loading, success, and error states must follow the same geometry tokens; rounding cannot replace accessibility, contrast, or information hierarchy.
 
 ## Odysseus AI workspace integration
 
