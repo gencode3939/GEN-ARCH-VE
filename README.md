@@ -47,12 +47,12 @@ Prompts enforce real component states, native semantic controls, keyboard/focus 
 
 Every one of the **20,000 prompts** expands lazily when copied, opened, or downloaded. The archive keeps browsing light by storing prompt metadata first, then builds the complete long-form prompt on demand. Each complete prompt contains:
 
-- A distilled and attributed **233-source synthesis**: all previously supplied repositories, Odysseus AI Workspace, Agency Agents, Karpathy-Inspired Skills, the earlier 20-repository catalog, 100 production-system repositories, and 100 additional design/typography/motion/web sources
+- A distilled and attributed **234-source synthesis**: all previously supplied repositories, Odysseus AI Workspace, Agency Agents, Karpathy-Inspired Skills, an AI Tool Prompt Safety reference, the earlier 20-repository catalog, 100 production-system repositories, and 100 additional design/typography/motion/web sources
 - Repository-specific `SOURCE`, `APPLY`, `GUARD`, `VERIFY`, `DOMAIN`, `INTEGRATE`, and design-source directives
 - Ten quality matrices with explicit checks for intent, tokens, anatomy, accessibility, input/password safety, motion, loading, performance, test/review, and output
 - The selected component brief or production-system opportunity, architecture profile, capability pack, style system, motion profile, UIverse craft cue, and model-neutral delivery contract
 
-The complete prompts are deliberately detailed: component prompts are currently **1,229 lines** and production-system prompts are currently **1,172 lines**. They do not copy repository code or documentation verbatim. This keeps them license-conscious, practical for current coding-agent context windows, and fast to browse.
+The complete prompts are deliberately detailed: all component and production-system prompts are currently **exactly 4,000 lines**. They do not copy repository code or documentation verbatim. The archive remains fast to browse because prompts are generated lazily; copying a 4,000-line brief is intended for long-context coding agents or a workflow that can process the brief in staged sections.
 
 ## Twenty newly researched repositories
 
@@ -80,6 +80,10 @@ The following new repositories were researched and turned into explicit prompt r
 | 18 | [Tailwind CSS](https://github.com/tailwindlabs/tailwindcss) | Deliberate tokens/utilities/responsive variants rather than one-off values. |
 | 19 | [Class Variance Authority](https://github.com/joe-bell/cva) | Finite explicit component variant contracts. |
 | 20 | [Vaul](https://github.com/emilkowalski/vaul) | Touch-friendly drawers/sheets and predictable gesture fallback. |
+
+## AI system-prompt safety boundary
+
+The repository `x1xhlol/system-prompts-and-models-of-ai-tools` was reviewed as a **security reference**, not a prompt source. Its structure includes many files labelled as system prompts/internal tools for third-party AI products, some of which may be private, proprietary, leaked, or unauthorized. The archive does **not** copy, reproduce, infer, or redistribute those prompts. Instead, every generated prompt now includes an original 4,000-line safe agent-execution protocol covering provider capability adapters, scoped tools, trusted/untrusted context separation, prompt-injection resistance, secret handling, consented memory, human confirmation, audit logging, source intake, testing, and verification.
 
 ## Agency Agents and Karpathy execution integration
 
