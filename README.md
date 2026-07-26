@@ -43,4 +43,31 @@ The shared protocol incorporates the reviewed skill repositories:
 
 Prompts enforce real component states, native semantic controls, keyboard/focus paths, 44px targets, error/loading/success states, form and password safety, security constraints, reduced-motion fallbacks, transform/opacity motion, official-GSAP-only-when-needed discipline, distinctive subject-grounded art direction, design-system component composition, original UIverse-inspired micro-craft, and a final verification/review pass. Each asks for a polished primary component plus purposeful default/expressive states without copying any individual UIverse submission. They are explicitly **model-neutral**: Claude Code, ChatGPT/Codex, Gemini, Cursor, Copilot, Windsurf, Aider, OpenCode, and similar AI coding agents receive the same embedded requirements even when none of the external skill plugins are installed.
 
+## Twenty newly researched repositories
+
+The following new repositories were researched and turned into explicit prompt rules. They are **not** all installed together; every prompt tells an AI to select compatible primitives/dependencies for a real target stack and to provide dependency-free semantic fallbacks for its requested single-file lab.
+
+| # | Repository | Integrated prompt direction |
+|---:|---|---|
+| 1 | [WAI-ARIA Practices](https://github.com/w3c/wai-aria-practices) | Authoritative keyboard, role, focus, dialog, menu, tab, slider, listbox, and disclosure behavior. |
+| 2 | [Radix Primitives](https://github.com/radix-ui/primitives) | Composable parts, state contracts, data attributes, and accessible overlay behavior. |
+| 3 | [Headless UI](https://github.com/tailwindlabs/headlessui) | Semantic, unstyled interaction patterns and state-driven presentation. |
+| 4 | [Adobe React Spectrum](https://github.com/adobe/react-spectrum) | Accessibility, focus, touch, localization, validation, and adaptive interactions. |
+| 5 | [Ariakit](https://github.com/ariakit/ariakit) | Composite widgets and explicit accessible state stores. |
+| 6 | [Base UI](https://github.com/mui/base-ui) | Accessible unstyled primitives with complete CSS ownership. |
+| 7 | [Melt UI](https://github.com/melt-ui/melt-ui) | Separate behavior builders from presentation and expose styling state. |
+| 8 | [Motion](https://github.com/motiondivision/motion) | Interruptible layout-aware continuity where motion is genuinely useful. |
+| 9 | [React Spring](https://github.com/pmndrs/react-spring) | Physics for direct manipulation and interruption, not delayed navigation. |
+| 10 | [AutoAnimate](https://github.com/formkit/auto-animate) | Small meaningful automatic layout transitions with reduced-motion safety. |
+| 11 | [Animate.css](https://github.com/animate-css/animate.css) | Sparse, semantic entrance/exit use—not stacked decorative attention effects. |
+| 12 | [tsParticles](https://github.com/tsparticles/tsparticles) | Bounded, pausable, optional particle atmosphere with static fallback. |
+| 13 | [Color.js](https://github.com/color-js/color.js) | Perceptual color spaces, gamut-aware palette choices, and contrast-aware operations. |
+| 14 | [Culori](https://github.com/Evercoder/culori) | OKLCH scales, interpolation, dark mode, and clear state colors. |
+| 15 | [Colorable](https://github.com/jxnblk/colorable) | Explicit contrast validation for text and UI pairs. |
+| 16 | [contrast-ratio](https://github.com/LeaVerou/contrast-ratio) | Measured contrast rather than visual guessing. |
+| 17 | [Lucide](https://github.com/lucide-icons/lucide) | Consistent accessible SVG icon language. |
+| 18 | [Tailwind CSS](https://github.com/tailwindlabs/tailwindcss) | Deliberate tokens/utilities/responsive variants rather than one-off values. |
+| 19 | [Class Variance Authority](https://github.com/joe-bell/cva) | Finite explicit component variant contracts. |
+| 20 | [Vaul](https://github.com/emilkowalski/vaul) | Touch-friendly drawers/sheets and predictable gesture fallback. |
+
 No API key, build process, external image, or remote AI call is needed to browse this single HTML archive.
