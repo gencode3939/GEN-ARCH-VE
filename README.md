@@ -1,4 +1,4 @@
-# P/GEN Component Motion Archive
+# P/GEN UIverse Component Motion Archive
 
 A standalone **10,000-prompt component engineering library**. It is built for copy-ready prompts that ask a coding AI for a real interactive component lab, not a static UI snippet.
 
@@ -39,7 +39,8 @@ The shared protocol incorporates the reviewed skill repositories:
 - [Awesome Design Skills](https://github.com/bergside/awesome-design-skills): a registry of 67 coherent design-system styles with tokens, component-state rules, accessibility constraints, anti-patterns, and QA gates.
 - [Official GSAP Skills](https://github.com/greensock/gsap-skills): core API, timelines, labels, responsive matchMedia, ScrollTrigger, performance, plugins, utility methods, cleanup, and accessible fallbacks.
 - [alirezarezvani Claude Skills](https://github.com/alirezarezvani/claude-skills): multi-tool skill portability plus senior frontend, WCAG audit, Playwright-style verification, UI-system, security, performance, and release-quality guidance.
+- [UIverse](https://uiverse.io/): community-made, open-source component inspiration across buttons, cards, loaders, toggles, forms, inputs, tooltips, hover effects, animated backgrounds, and feedback patterns. Prompts use it for category-level inspiration only and require original implementations rather than copied submissions.
 
-Prompts enforce real component states, native semantic controls, keyboard/focus paths, 44px targets, error/loading/success states, form and password safety, security constraints, reduced-motion fallbacks, transform/opacity motion, official-GSAP-only-when-needed discipline, distinctive subject-grounded art direction, design-system component composition, and a final verification/review pass. They are explicitly **model-neutral**: Claude Code, ChatGPT/Codex, Gemini, Cursor, Copilot, Windsurf, Aider, OpenCode, and similar AI coding agents receive the same embedded requirements even when none of the external skill plugins are installed.
+Prompts enforce real component states, native semantic controls, keyboard/focus paths, 44px targets, error/loading/success states, form and password safety, security constraints, reduced-motion fallbacks, transform/opacity motion, official-GSAP-only-when-needed discipline, distinctive subject-grounded art direction, design-system component composition, original UIverse-inspired micro-craft, and a final verification/review pass. Each asks for a polished primary component plus purposeful default/expressive states without copying any individual UIverse submission. They are explicitly **model-neutral**: Claude Code, ChatGPT/Codex, Gemini, Cursor, Copilot, Windsurf, Aider, OpenCode, and similar AI coding agents receive the same embedded requirements even when none of the external skill plugins are installed.
 
 No API key, build process, external image, or remote AI call is needed to browse this single HTML archive.
