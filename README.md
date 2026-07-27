@@ -172,6 +172,22 @@ Each P/GEN prompt includes requirements for:
 ---
 
 
+
+## P/GEN Design Profile Library
+
+P/GEN now includes a separate library of **10,000 original UI, typography, color, and interaction profiles**. This is not a claim that 10,000 additional GitHub repositories were individually researched. The profiles are generated from original combinations of the existing curated principles:
+
+- 10 layout systems
+- 10 typography systems
+- 10 color systems
+- 10 interaction systems
+
+`10 × 10 × 10 × 10 = 10,000` unique profiles.
+
+The complete catalog lives at [`docs/design-profiles/CATALOG.md`](./docs/design-profiles/CATALOG.md). Gemini Forge selects a relevant active profile set from this library. Users can bias selection toward **Premium product**, **Editorial clarity**, **Enterprise utility**, **Calm and accessible**, or **Bold creative** visual direction.
+
+Every existing archive prompt also receives an active design-profile set during lazy compilation. Profile selection never overrides accessibility, contrast, responsive behavior, task clarity, or source-intake safety.
+
 ## Gemini Prompt Forge
 
 P/GEN now includes a browser-based **Gemini Prompt Forge** inside `index.html`.
@@ -191,7 +207,8 @@ The key is held only in browser memory for the current page session. It is not s
 The Forge uses the official Gemini **Interactions API** when available, then falls back to the compatible `generateContent` REST route if needed. Gemini is asked to return a small JSON specification—not a huge code dump. P/GEN then combines that specification with:
 
 - The 239-source distilled principles already in the archive
-- A new local library of **10,000 original P/GEN Native Skills**
+- A local library of **10,000 original P/GEN Native Skills**
+- A relevant set from the **10,000 original P/GEN Design Profiles**
 - The relevant active-skill selection for the user brief
 - The 10,000-line original safe execution protocol
 

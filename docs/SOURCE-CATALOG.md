@@ -313,3 +313,10 @@ No API key, build process, external image, or remote AI call is needed to browse
 |---|---|
 | [Gemini API Text Generation](https://ai.google.dev/gemini-api/docs/text-generation) | Browser-authorized Gemini Forge integration using the official Interactions API structure with a compatible `generateContent` fallback. The user API key stays only in in-memory page state. |
 | **P/GEN Native Skill Library** | 10,000 original structured skills generated locally across product discovery, information architecture, visual systems, typography, color science, component engineering, interaction design, accessibility, security/privacy, and data/reliability. Brief relevance selects a cross-domain active set; it does not import third-party code or prompts. |
+
+
+## P/GEN Original Design Profile Library
+
+| System | How P/GEN uses it |
+|---|---|
+| [P/GEN Design Profile Catalog](./design-profiles/CATALOG.md) | 10,000 original combinations of layout, typography, color, and interaction direction. It is a local creative-selection library, not a claim of 10,000 additional external repositories. |
