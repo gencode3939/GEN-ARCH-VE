@@ -140,6 +140,23 @@ The 10,000-line output is not stored as one opaque block. It is compiled lazily 
 
 Each specialist module contains exactly **1,000 guidance lines**. Together they form a 10,000-line documented system. Archive and Gemini Forge prompts include a module manifest and embed the equivalent rules, so an agent can work even when it cannot read repository files. When an agent can read the repository, it should load only the modules relevant to the task rather than stuffing all modules into a short context window.
 
+
+## Model compatibility and quality adapter
+
+P/GEN does not copy third-party private or leaked system prompts and does not claim to turn one AI model into another. Instead, every 10,000-line prompt now includes an original **Model-Compatibility Execution Adapter**.
+
+It requires an AI agent to:
+
+- Check its actual tools, context, permissions, filesystem, browser, network, JSON/schema, and test capabilities before acting
+- Process the long modular system in stages rather than pretending unlimited context is available
+- Use structured specifications and validate them before code generation
+- Keep trusted instructions separate from untrusted briefs, memory, tool output, documents, web pages, attachments, and generated suggestions
+- Work through clarify → assumptions → acceptance criteria → minimum slice → implementation → evidence → root-cause repair → review
+- Report limitations and unsupported capabilities honestly
+- Use strong component, button, input, overlay, loading, motion, and accessibility contracts
+
+This makes output more predictable across different capable coding agents. It is a quality and safety protocol, not a claim of a specific proprietary model’s power.
+
 ## Quality gates in every prompt
 
 Each P/GEN prompt includes requirements for:
