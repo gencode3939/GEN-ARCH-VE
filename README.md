@@ -5,7 +5,7 @@
 > A premium, browser-based prompt library for turning a product idea into a thoughtful component system or a deployable application—without starting from an empty page.
 
 <p align="center">
-  <strong>20,000 prompts</strong> · <strong>4,000 lines per prompt</strong> · <strong>239 distilled sources</strong> · <strong>one standalone HTML archive</strong>
+  <strong>20,000 prompts</strong> · <strong>10,000 lines per prompt</strong> · <strong>239 distilled sources</strong> · <strong>one standalone HTML archive</strong>
 </p>
 
 ---
@@ -17,7 +17,7 @@ P/GEN is a curated build-intelligence archive. It does not generate a generic pl
 1. **An interactive UI component lab** — buttons, password fields, authentication surfaces, loaders, filters, drawers, tables, preference controls, feedback states, motion systems, and more.
 2. **A real production application** — a complete Next.js + TypeScript + PostgreSQL system with authentication, authorization, validation, database migrations, tests, Docker, observability, deployment guidance, and rollback planning.
 
-The archive is built for Claude Code, Codex, ChatGPT, Gemini, Cursor, Copilot, Windsurf, Aider, OpenCode, and other capable coding agents. Every prompt carries its own fallback rules, so the result does not depend on a hidden plugin being installed. For new ideas, the built-in Gemini Prompt Forge can turn a user brief into a custom 4,000-line P/GEN build prompt.
+The archive is built for Claude Code, Codex, ChatGPT, Gemini, Cursor, Copilot, Windsurf, Aider, OpenCode, and other capable coding agents. Every prompt carries its own fallback rules, so the result does not depend on a hidden plugin being installed. For new ideas, the built-in Gemini Prompt Forge can turn a user brief into a custom 10,000-line P/GEN build prompt.
 
 
 ## Türkçe dil desteği
@@ -54,7 +54,7 @@ The goal is not to make one model imitate another. The goal is to give any capab
 | **Production Systems** | 10,000 | Next.js + TypeScript + PostgreSQL applications with real backend architecture |
 | **Total** | **20,000** | Copy-ready English build prompts |
 
-Every generated prompt is exactly **4,000 lines** and is created lazily when the user opens, copies, or downloads it. The archive stays fast because it does not load 20,000 huge strings into memory when the page opens.
+Every generated prompt is exactly **10,000 lines** and is created lazily when the user opens, copies, or downloads it. The archive stays fast because it does not load 20,000 huge strings into memory when the page opens.
 
 ---
 
@@ -120,6 +120,26 @@ See the full audited list in [docs/SOURCE-CATALOG.md](./docs/SOURCE-CATALOG.md).
 
 ---
 
+
+## Modular 10,000-line prompt system
+
+The 10,000-line output is not stored as one opaque block. It is compiled lazily from a **modular Markdown system** in [`docs/prompt-system/`](./docs/prompt-system/).
+
+| Module | Purpose |
+|---|---|
+| [01 — Product Discovery](./docs/prompt-system/01-product-discovery.md) | User outcomes, assumptions, non-goals, constraints, and acceptance criteria |
+| [02 — UX and Information Flow](./docs/prompt-system/02-ux-information-flow.md) | Journeys, navigation, hierarchy, content, recovery, and completion |
+| [03 — Tokens, Typography, Color](./docs/prompt-system/03-design-tokens-typography-color.md) | Visual tokens, fluid typography, color science, dark mode, contrast, spacing, and geometry |
+| [04 — Component and Frontend System](./docs/prompt-system/04-component-frontend-system.md) | Semantic anatomy, variants, state contracts, responsive behavior, and frontend quality |
+| [05 — Accessibility and Inclusion](./docs/prompt-system/05-accessibility-inclusion.md) | Keyboard, focus, screen readers, touch, zoom, language, and motion preferences |
+| [06 — Motion and Visual Craft](./docs/prompt-system/06-motion-visual-craft.md) | Meaningful animation, feedback, reduced motion, and original interaction craft |
+| [07 — Data and Backend Workflows](./docs/prompt-system/07-data-backend-workflows.md) | Schemas, APIs, queues, transactions, realtime behavior, and recovery |
+| [08 — Security, Privacy, Auth](./docs/prompt-system/08-security-privacy-auth.md) | Validation, authorization, consent, secrets, audit, tenancy, and threat boundaries |
+| [09 — Testing, Reliability, Release](./docs/prompt-system/09-testing-reliability-release.md) | Tests, diagnostics, SLOs, CI, rollout, backup, rollback, and operations |
+| [10 — Agent Context and GitHub Delivery](./docs/prompt-system/10-agent-context-github.md) | Safe tool use, context, source intake, Git/PR hygiene, evidence, and approval |
+
+Each specialist module contains exactly **1,000 guidance lines**. Together they form a 10,000-line documented system. Archive and Gemini Forge prompts include a module manifest and embed the equivalent rules, so an agent can work even when it cannot read repository files. When an agent can read the repository, it should load only the modules relevant to the task rather than stuffing all modules into a short context window.
+
 ## Quality gates in every prompt
 
 Each P/GEN prompt includes requirements for:
@@ -143,7 +163,7 @@ P/GEN now includes a browser-based **Gemini Prompt Forge** inside `index.html`.
 2. Enter a Gemini API key and a model available to that key.
 3. Describe the application, users, constraints, integrations, data, and desired visual direction.
 4. Gemini converts the brief into a compact structured build specification.
-5. P/GEN compiles that specification locally into an exact **4,000-line** custom build prompt.
+5. P/GEN compiles that specification locally into an exact **10,000-line** custom build prompt.
 
 ### What happens to the API key?
 
@@ -156,7 +176,7 @@ The Forge uses the official Gemini **Interactions API** when available, then fal
 - The 239-source distilled principles already in the archive
 - A new local library of **10,000 original P/GEN Native Skills**
 - The relevant active-skill selection for the user brief
-- The 4,000-line original safe execution protocol
+- The 10,000-line original safe execution protocol
 
 This produces a detailed custom prompt without putting the user API key or a vendor-specific hidden system prompt into the archive.
 
@@ -222,9 +242,9 @@ Then open `http://localhost:8080`.
 
 ---
 
-## Important note about 4,000-line prompts
+## Important note about 10,000-line prompts
 
-Each prompt is intentionally extensive. Use a long-context coding agent or process the prompt in staged sections when needed. The archive remains performant because prompts are generated only when requested—not while browsing.
+Each prompt is intentionally extensive. Use a long-context coding agent or follow the modular prompt system in staged sections when needed. The archive remains performant because prompts are generated only when requested—not while browsing. Long prompts improve coverage and consistency only when the agent still follows scoped acceptance criteria, evidence, and review; length alone is not a quality guarantee.
 
 ---
 

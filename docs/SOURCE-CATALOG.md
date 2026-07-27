@@ -51,7 +51,7 @@ These are workflow and context-quality rules, not a claim that any AI model can 
 
 ## AI system-prompt safety boundary
 
-The repository `x1xhlol/system-prompts-and-models-of-ai-tools` was reviewed as a **security reference**, not a prompt source. Its structure includes many files labelled as system prompts/internal tools for third-party AI products, some of which may be private, proprietary, leaked, or unauthorized. The archive does **not** copy, reproduce, infer, or redistribute those prompts. Instead, every generated prompt now includes an original 4,000-line safe agent-execution protocol covering provider capability adapters, scoped tools, trusted/untrusted context separation, prompt-injection resistance, secret handling, consented memory, human confirmation, audit logging, source intake, testing, and verification.
+The repository `x1xhlol/system-prompts-and-models-of-ai-tools` was reviewed as a **security reference**, not a prompt source. Its structure includes many files labelled as system prompts/internal tools for third-party AI products, some of which may be private, proprietary, leaked, or unauthorized. The archive does **not** copy, reproduce, infer, or redistribute those prompts. Instead, every generated prompt now includes an original 10,000-line safe agent-execution protocol covering provider capability adapters, scoped tools, trusted/untrusted context separation, prompt-injection resistance, secret handling, consented memory, human confirmation, audit logging, source intake, testing, and verification.
 
 ## Agency Agents and Karpathy execution integration
 
