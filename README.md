@@ -19,6 +19,18 @@ P/GEN is a curated build-intelligence archive. It does not generate a generic pl
 
 The archive is built for Claude Code, Codex, ChatGPT, Gemini, Cursor, Copilot, Windsurf, Aider, OpenCode, and other capable coding agents. Every prompt carries its own fallback rules, so the result does not depend on a hidden plugin being installed. For new ideas, the built-in Gemini Prompt Forge can turn a user brief into a custom 4,000-line P/GEN build prompt.
 
+
+## Türkçe dil desteği
+
+P/GEN arayüzünde sağ üstteki **TR / EN** dil düğmesi ile İngilizce ve Türkçe arasında geçiş yapılabilir. Bu seçim yalnızca zararsız bir kullanıcı arayüzü tercihi olarak tarayıcıda saklanır; API key, brief veya prompt içeriği saklanmaz.
+
+Gemini Prompt Forge içinde ayrıca **Prompt dili** seçeneği vardır:
+
+- **English technical prompt** — uluslararası teknik isimlendirme ve İngilizce kullanıcı çıktısı
+- **Türkçe yönlendirme + English technical rules** — Gemini spesifikasyonu ve kullanıcıya görünen ürün/metin yönlendirmeleri Türkçe hazırlanır; paket adları, API kimlikleri, kaynak adları ve uyumluluk kuralları gerektiğinde İngilizce kalır
+
+Bu yaklaşım Türkçe ürün briefleri ile çalışmayı kolaylaştırırken teknik ekosistem referanslarının doğruluğunu korur.
+
 ## Why it is different
 
 Most prompts ask an AI to “make a nice app.” P/GEN asks for a verifiable build with:
