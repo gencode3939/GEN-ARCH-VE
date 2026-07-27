@@ -305,3 +305,11 @@ No API key, build process, external image, or remote AI call is needed to browse
 | [RuFlo](https://github.com/ruvnet/ruflo) | Conditional goal graphs, bounded orchestration, checkpointing, scoped memory, budgets, replanning, and zero-trust controls. |
 | [Claw Code](https://github.com/ultraworkers/claw-code) | Doctor-style preflight, provider routing, typed tools, permission modes, workspace boundaries, mock parity, and honest status reporting. |
 | [AI Tool Prompt Safety Reference](https://github.com/x1xhlol/system-prompts-and-models-of-ai-tools) | Security awareness only. P/GEN does not copy or reproduce system prompts from this collection. |
+
+
+## Gemini Prompt Forge and P/GEN Native Skills
+
+| Source / System | How P/GEN uses it |
+|---|---|
+| [Gemini API Text Generation](https://ai.google.dev/gemini-api/docs/text-generation) | Browser-authorized Gemini Forge integration using the official Interactions API structure with a compatible `generateContent` fallback. The user API key stays only in in-memory page state. |
+| **P/GEN Native Skill Library** | 10,000 original structured skills generated locally across product discovery, information architecture, visual systems, typography, color science, component engineering, interaction design, accessibility, security/privacy, and data/reliability. Brief relevance selects a cross-domain active set; it does not import third-party code or prompts. |

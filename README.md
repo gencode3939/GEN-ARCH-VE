@@ -17,7 +17,7 @@ P/GEN is a curated build-intelligence archive. It does not generate a generic pl
 1. **An interactive UI component lab** — buttons, password fields, authentication surfaces, loaders, filters, drawers, tables, preference controls, feedback states, motion systems, and more.
 2. **A real production application** — a complete Next.js + TypeScript + PostgreSQL system with authentication, authorization, validation, database migrations, tests, Docker, observability, deployment guidance, and rollback planning.
 
-The archive is built for Claude Code, Codex, ChatGPT, Gemini, Cursor, Copilot, Windsurf, Aider, OpenCode, and other capable coding agents. Every prompt carries its own fallback rules, so the result does not depend on a hidden plugin being installed.
+The archive is built for Claude Code, Codex, ChatGPT, Gemini, Cursor, Copilot, Windsurf, Aider, OpenCode, and other capable coding agents. Every prompt carries its own fallback rules, so the result does not depend on a hidden plugin being installed. For new ideas, the built-in Gemini Prompt Forge can turn a user brief into a custom 4,000-line P/GEN build prompt.
 
 ## Why it is different
 
@@ -121,6 +121,49 @@ Each P/GEN prompt includes requirements for:
 - **Verification** — acceptance criteria, red-green-refactor where appropriate, browser flows, tests, accessibility checks, and final review
 
 ---
+
+
+## Gemini Prompt Forge
+
+P/GEN now includes a browser-based **Gemini Prompt Forge** inside `index.html`.
+
+1. Select **Gemini Forge** in the archive header.
+2. Enter a Gemini API key and a model available to that key.
+3. Describe the application, users, constraints, integrations, data, and desired visual direction.
+4. Gemini converts the brief into a compact structured build specification.
+5. P/GEN compiles that specification locally into an exact **4,000-line** custom build prompt.
+
+### What happens to the API key?
+
+The key is held only in browser memory for the current page session. It is not stored in localStorage, sessionStorage, cookies, the HTML file, Git, GitHub, or P/GEN source data. The browser sends it directly to Google’s Gemini API under the user’s own account and API-key restrictions. Use a restricted browser/API key and clear the Forge session when finished.
+
+### Gemini request architecture
+
+The Forge uses the official Gemini **Interactions API** when available, then falls back to the compatible `generateContent` REST route if needed. Gemini is asked to return a small JSON specification—not a huge code dump. P/GEN then combines that specification with:
+
+- The 239-source distilled principles already in the archive
+- A new local library of **10,000 original P/GEN Native Skills**
+- The relevant active-skill selection for the user brief
+- The 4,000-line original safe execution protocol
+
+This produces a detailed custom prompt without putting the user API key or a vendor-specific hidden system prompt into the archive.
+
+### P/GEN Native Skill Library
+
+The native library contains 10,000 structured skills across ten domains:
+
+- Product discovery
+- Information architecture
+- Visual systems
+- Typography
+- Color science
+- Component engineering
+- Interaction design
+- Accessibility
+- Security and privacy
+- Data and reliability
+
+Each skill has an ID, domain, competency, specialty, and implementation directive. For each user brief, P/GEN retrieves a relevant cross-domain active set and puts it into the generated prompt. Existing archive prompts also use this native selection at lazy generation time.
 
 ## Safety and source policy
 
